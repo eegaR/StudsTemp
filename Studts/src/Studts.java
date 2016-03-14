@@ -7,7 +7,8 @@ public class Studts {
 
 	public static void main(String[] args) {
         input = new Scanner(System.in);
-      
+        System.out.print("WORKING IN GIT CONFIGURATION: ");
+        System.out.print("FIRST CHANGE COMMIT: ");
         System.out.print("Enter number of studts: ");
         int nos = input.nextInt();
         String[] studtname = new String[nos];
